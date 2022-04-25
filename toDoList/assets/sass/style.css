@@ -1,0 +1,57 @@
+body {
+  font-family: 'Quintessential', cursive;
+  background: linear-gradient(140deg, yellow 10%, orange 20%, red 70%);
+}
+
+body .theme {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+}
+
+.container {
+  border: solid #cfb260;
+  margin: 5rem;
+  min-width: 20rem;
+  max-width: 80rem;
+}
+
+.container input {
+  background-color: #f1d6b3;
+}
+
+.container button {
+  background-color: rgba(0, 255, 255, 0.336);
+  color: white;
+}
+
+.container .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .list ol {
+  padding: 3rem;
+  margin: 1rem;
+  min-height: 25vh;
+  border: ridge;
+  color: white;
+}
+
+.container .list ol li {
+  font-size: larger;
+}
+
+.container .list ol li button {
+  background-color: transparent;
+  border: none;
+  color: #19f0cc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+/*# sourceMappingURL=style.css.map */
