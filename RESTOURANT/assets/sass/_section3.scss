@@ -1,0 +1,58 @@
+.section3{
+    .sec33{
+        width: 80%;
+        margin-left: 10%;
+        button{
+            width: 15rem;
+        }
+        h1{
+            font-size: 5rem;
+            font-weight: 700;
+        }
+        .sec331{
+            display: flex;
+            align-items: center;
+            button{
+                background-color: rgb(235, 142, 120);
+                height: 3rem;
+                width: 3rem;
+                margin: 1rem;
+                a{
+                    color: white;
+                }
+            }
+        }
+        .cardlist{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .card{
+                img{
+                    position: relative;
+                    z-index: 1;
+                }
+                
+                button{
+                    position: absolute;
+                    width: 4rem;
+                    height: 2rem;
+                    background-color: rgb(235, 142, 120);
+                    z-index: 2;
+                    border-radius: 10%;
+                    margin: 1rem;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 1rem;
+                    }
+                }
+            
+                .card-body{
+                    .cardb2{
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}

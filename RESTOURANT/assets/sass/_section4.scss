@@ -1,0 +1,53 @@
+.section4{
+    .row{
+        display: flex;
+        .imgcol2{
+            position: relative;
+            .man{
+                width:52.5rem ;
+                height:35rem;
+                position: relative;
+            }
+            .map{
+                position: absolute;
+                left: rem;
+                top:rem ;
+                width:10.6rem ;
+                height: 10rem;
+                z-index: 2;
+            }
+            .manz3{
+                position: absolute;
+                left: ;
+                top: ;
+                width:8.6rem ;
+                height: 8rem;
+                z-index: 2;
+            }
+            .mapicon{
+                position: absolute;
+                left: ;
+                top: ;
+                width: 10.5em; ;
+                height: 4rem;
+                background-color: white;
+                display: flex;
+                a{
+                    color: chocolate;
+                }
+            }
+            .dots{
+                position: absolute;
+                left: ;
+                top: ;
+                display: flex;
+                flex-direction: column;
+                .img{
+                    margin-top: 1rem;
+                    width: 11.7rem;
+                    height: 3.25rem;
+                }
+            }
+        }
+    }
+}
