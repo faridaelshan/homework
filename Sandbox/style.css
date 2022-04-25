@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 248, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 248, 239); 
+}
+ .logo{ 
+    height: 100px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: rgb(255, 248, 239);
+}
+  .navbar{
+      width: 600px;
+    margin-left: 300px;
+    background-color: rgb(255, 248, 239);
+    display: flex;
+    justify-content: space-between;
+}
+.subnav{
+    overflow: hidden;
+    float: left;
+}
+.subnav .subnavbtn{
+    background-color:rgb(255, 248, 239) ;
+    border: none;
+    padding-bottom: 0;
+    outline: none;
+}
+.navbar a:hover{
+    background-color: rgb(52, 63, 82) ;
+    border: none;
+}
+.subnav:hover .subnavbtn{
+    border: none;
+    background-color:rgb(255, 248, 239) ;
+    color: rgb(251, 198, 123);  
+}
+.subnav-content{
+    display: none;
+    background-color: rgb(52, 63, 82) ;
+    width: 80%;
+    height: 400px;
+    z-index: 1;
+    padding: 20px;
+   position: absolute;
+   left: 0;
+   margin: 100px;
+   border-radius: 10px;
+}
+.subnav-content a:hover{
+    background-color: rgb(52, 63, 82) ;
+}
+.subnav:hover .subnav-content{
+    display: block;
+}
+a>img{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5%; 
+}
+.subnav>button{
+    height: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+select:hover{
+    color: rgb(251, 198, 123);
+    background-color:rgb(251, 198, 123) ;
+    border:rgb(251, 198, 123);
+}
+option:hover{
+    color: rgb(251, 198, 123);
+    background-color: rgb(255, 255, 255);
+    border:rgb(251, 198, 123);
+}
+select,option{
+    border:rgb(255, 248, 239);
+    margin-top: px;
+   margin-right: 00px;
+}
+.b1{
+    position: absolute;
+    left: 0;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 800px;
+}
+.try{
+    font: 25px sans-serif;
+    position: absolute;
+    right: 0;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+.try>button{
+    border-top-left-radius:1000px ;
+    border-bottom-left-radius:1000px ;
+    border-top-right-radius:1000px ;
+    border-bottom-right-radius:1000px ;
+    width: 180px;
+    height: 53px;
+    background-color: rgb(245, 179, 86);
+    color: rgb(255, 255, 255);
+    font: 17px sans-serif;
+    border: none;
+}
+.ry{
+    height: 600px;  
+}
+.ry2>h3{
+    color: rgb(170, 178, 205);
+}
+.box1,.box2,.box3,.box4{
+    width: 200px;
+    height: 330px;
+    background-color:rgb(255, 255, 255) ;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.box1>img,.box2>img,.box3>img,.box4>img{
+    margin-left: 70px;
+}
+.sari{
+    color: rgb(250, 185, 93);
+}
+.cehrayi{
+    color: rgb(235, 146, 152);
+}
+.yasil{
+   color:rgb(112, 192, 166);
+} 
+.mavi{
+color: rgb(63, 120, 224);
+}
+.box1>a{
+    text-decoration: none;
+}
+.box2>a{
+    text-decoration: none;
+}
+.box3>a{
+    text-decoration: none;
+}
+.box4>a{
+    text-decoration: none;
+}
+.box1>a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(250, 185, 93) ;
+}
+.box2>a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(235, 146, 152) ;
+}
+.box3>a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(112, 192, 166);
+}
+.box4>a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(63, 120, 224);
+}
+.c{
+    margin-right: 10px;
+}
+.b2{
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    margin-left: 1000px;
+}
+.yy{
+    font: 20px sans-serif;
+    position: absolute;
+    left: 0;
+   margin-left: 100px;
+   color: rgb(96, 105, 123);
+}
+.yy>h3{
+    color: rgb(170, 178, 205);
+    font-size: 16px;
+}
+.yy>form{
+    width: 300px;
+box-sizing: border-box;
+position: relative;
+}
+.yy>form>input{
+    padding: 10px;
+    width: 80%;
+    position: absolute;
+    float: left;
+    border-color: rgb(218, 210, 210);
+    border-top-left-radius:5px ;
+border-bottom-left-radius:5px ;
+}
+.yy>form>button{
+    width: 20%;
+  padding: 10px;
+  background-color: rgb(250, 183, 88);
+  border-color: rgb(196, 194, 194);
+  cursor: pointer;
+  position: absolute;
+  left: 80%;
+  color:white;
+  border-top-right-radius:5px ;
+border-bottom-right-radius:5px ;
+}
+.yy>form::after{
+    display: table;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box5,.box6,.box7,.box8{
+    width: 200px;
+    height: 330px;
+    background-color:rgb(52, 63, 82) ;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.ff{
+    height: 600px;
+}
+.i7>img{
+    width: 80px;
+    display: inline-block;
+    margin: 70px;
+}
+footer{
+    background-color:rgb(52, 63, 82);
+    color: white;
+}
+footer>.container1>.box6>a{
+    text-decoration: none;
+    color: white;
+}
+footer>.container1>.box7>a{
+    text-decoration: none;
+    color: white;
+}
+footer>.container1>.box7>a:hover{
+    color: rgb(251, 198, 123); 
+}
+footer>.container1>.box6>a:hover{
+    color: rgb(251, 198, 123); 
+}
+footer>.container1>.box8>form{
+    width: 300px;  
+box-sizing: border-box;
+position: relative;
+width: 200px;
+}
+footer>.container1>.box8>form>input{
+    padding: 10px;
+    width: 80%;
+    position: absolute;
+    float: left;
+    border-color: white;
+    background-color:rgb(52, 63, 82) ;
+    color: white;
+    border-top-left-radius:5px ;
+border-bottom-left-radius:5px ;
+}
+footer>.container1>.box8>form>button{
+    width: 20%;
+  padding: 10px;
+  background-color: rgb(250, 183, 88);
+  border-color: white;
+  cursor: pointer;
+  position: absolute;
+  left: 80%;
+  color:white;
+  border-top-right-radius:5px ;
+border-bottom-right-radius:5px ;
+}
+footer>.container1>.box8>form::after{
+    display: table;
+}
