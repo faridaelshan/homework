@@ -1,0 +1,114 @@
+body {
+  background-repeat: no-repeat;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(115, 255, 0, 0.514)), color-stop(rgba(255, 255, 0, 0.753)), color-stop(#ffa600), to(rgba(255, 0, 0, 0.596)));
+  background: linear-gradient(90deg, rgba(115, 255, 0, 0.514), rgba(255, 255, 0, 0.753), #ffa600, rgba(255, 0, 0, 0.596));
+}
+
+.new {
+  border-color: rgba(207, 112, 112, 0.281);
+  border-radius: 50%;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  font-weight: 600;
+  background-color: rgba(124, 235, 229, 0.856);
+}
+
+.row {
+  width: 100%;
+}
+
+.row .container {
+  width: 33%;
+  border-radius: 10%;
+  background-color: rgba(100, 100, 100, 0.199);
+}
+
+.row .container .boxdel {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  float: right;
+  margin-top: 1.5rem;
+  margin-left: 4px;
+  background-color: rgba(51, 207, 255, 0.671);
+  color: white;
+  margin-right: 2px;
+  border-radius: 50%;
+}
+
+.row .container .d-flex {
+  width: 90;
+}
+
+.row .container .d-flex #topinput {
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: antiquewhite !important;
+  width: 80%;
+  height: 2.5rem;
+  margin-bottom: 2rem;
+  padding: 0;
+  border: 0;
+}
+
+.row .container .d-flex .chapter {
+  margin-top: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  color: antiquewhite;
+  width: 80%;
+  height: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.row .container .d-flex .pen {
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  margin-top: 1rem;
+  width: 2rem;
+  height: 2.5rem;
+  color: #3b6603;
+  background-color: #00c896;
+}
+
+.row .container .taskinput .form-control {
+  background-color: rgba(6, 119, 248, 0.247);
+  color: snow;
+}
+
+.row .container ul {
+  padding-left: 0;
+}
+
+.row .container ul li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0.226);
+  word-wrap: break-word;
+  color: white;
+  margin-top: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  height: 2.5rem;
+}
+
+.row .container ul li button {
+  padding: 0;
+  background-color: #43fda0;
+  color: white;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+/*# sourceMappingURL=style.css.map */
