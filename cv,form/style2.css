@@ -1,0 +1,53 @@
+fieldset{
+    background-color: rgba(30, 230, 196, 0.1);
+    width: 500px;
+    height: 580px;  
+    margin-left: 350px;   
+    color: aliceblue;  
+    overflow-y: scroll;
+ }
+ body{
+     background-color: black;
+ }
+label{
+    color: cornsilk;
+    margin-left:x;
+}
+button{
+    background-color: red;
+    color: cornsilk;
+}
+input, select{
+   margin-left: 130px;
+   background-color: rgb(176, 223, 231);
+}
+label{
+    text-align: center;
+}
+.f{
+    margin-left: 175px;
+}
+.l{
+    margin-left: 174px;
+}
+.e{
+    margin-left: 190px;
+}
+.p{
+    margin-left: 167px;
+}
+.co{
+    margin-left: 130px;
+}
+.b{
+    margin-left: 165px;
+}
+.u{
+    margin-left: 180px;
+}
+.pw{
+    margin-left: 180px;
+}
+.cp{
+    margin-left: 150px;
+}

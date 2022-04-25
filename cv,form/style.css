@@ -1,0 +1,14 @@
+.box{
+   background-color: rgba(30, 230, 196, 0.1);
+   width: 600px;
+   height: 600px;  
+   margin-left: 350px;     
+}
+body{
+    background-color: black;
+}
+button{
+    margin-top: 500px;
+    background-color: red;
+    color: rgb(245, 244, 244);
+}

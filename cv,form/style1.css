@@ -1,0 +1,24 @@
+.box1{
+    background-color: rgba(30, 230, 196, 0.1);
+    width: 600px;
+    height: 600px;  
+    margin-left: 350px;   
+    color: aliceblue;  
+   
+ }
+ body{
+     background-color: black;
+ }
+button{
+    background-color: red;
+    color: cornsilk;
+}
+ .b{
+    margin-left: 200px;
+}
+label{
+    margin-left: 250px;
+}
+.t{
+    margin-left: 220px;
+}
