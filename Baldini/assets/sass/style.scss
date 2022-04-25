@@ -1,0 +1,62 @@
+/* 
+.sec1{
+    .carusel{
+        .carusel-inner{
+            .carusel-item{
+                img{
+                    width: 80%;
+                    height: 100rem;
+                }
+            }
+        }
+    }
+} */
+.sec4{
+    .row{
+        .col{
+            position: relative;
+            h1{
+                position: absolute;
+                bottom: 9rem;
+                left: 7rem;
+                z-index:2 ;
+                font-weight: 700;
+                font-size: 5rem;
+            }
+        }
+    }
+}
+.sec5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .row{
+       width: 90vw;
+        .col{
+            position: relative;
+            
+            .dot{
+                position: absolute;
+                left: 4rem;
+                top: 3rem;
+            }
+            .border{
+                position: absolute;
+            }
+            .top{
+                position: absolute;
+                left: 4rem;
+                top: 5rem;
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+    }
+}
