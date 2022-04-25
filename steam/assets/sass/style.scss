@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    color: black;
+}
+.dark-mode{
+    background-color: rgb(27, 40, 56);
+    color: white;
+}
+header{
+.navbar{
+        div{
+          margin: 0;
+          justify-content: flex-end;
+          -webkit-box-pack: end;
+            a{
+                text-decoration: none;
+            }
+            .lang{
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+    }
+}
+section {
+    margin-left: 10%;
+  width: 50%;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #1b2838;
+  color: white;
+}
+
+header .navbar div {
+  margin: 0;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -webkit-box-pack: end;
+}
+
+header .navbar div a {
+  text-decoration: none;
+}
+
+header .navbar div .lang {
+  list-style: none;
+  text-decoration: none;
+}
+
+section {
+  margin-left: 10%;
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */
