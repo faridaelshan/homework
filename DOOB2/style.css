@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+header .navbar .container-fluid {
+  width: 90%;
+}
+
+header .navbar .container-fluid .navbar-brand {
+  margin-top: 15px;
+}
+
+header .navbar .container-fluid .navbar-brand img {
+  width: 200px;
+  height: 50px;
+}
+
+header .navbar .container-fluid .collapse ul li a {
+  color: blanchedalmond;
+}
+
+header .navbar .container-fluid .collapse ul li a:hover {
+  color: #0077ff;
+}
+
+header .navbar .container-fluid .collapse form .buy {
+  border-radius: 2em;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(rgb), var(--bs-bg-opacity)) !important;
+}
+
+header .navbar .container-fluid .collapse form .buy:hover {
+  -webkit-box-shadow: black;
+          box-shadow: black;
+}
+/*# sourceMappingURL=style.css.map */
