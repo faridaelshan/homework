@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="/sass/style.css">
+    <title>Music</title>
+</head>
+<body>
+    <div class="music">
+        <div class="card">
+            <div class="listbox">
+                <span id="openList" class="material-icons">&#xe05f;</span>
+                <span style="display:none;" id="closeList" class="material-icons">&#xe5cf;</span>
+               <ol style="display:none;" class="songlist">
+               </ol>
+            </div>
+            <div class="image">
+                <img class="songimage" alt="">
+            </div>
+            <div class="names"></div>
+            <div class="artist"></div>
+            <div class="timebox">
+                <div style="display:none;" class="volumelinebg">
+                    <div style="display:none;" class="volumeline">
+                    <div style="display:none;" class="volumepoint"></div>
+                  </div>
+                </div>
+                
+                <div class="sound">
+                    <div class="ride">
+                        <span style="display:none;" id="muted" class="material-icons">&#xe04e;</span>
+                        <span   id="volume"   class="material-icons">&#xe050;</span>
+                    </div>
+                    <div class="playtype">
+                        <span id="repeatList" class="material-icons">&#xe028;</span>
+                        <span style="display:none;" id="mixed" class="material-icons">&#xe043;</span>
+                        <span style="display:none;" id="repeatSong" class="material-icons">&#xe042;</span>
+                    </div>
+                </div>
+                <div class="minutebox">
+                    <p class="currentMinute"></p>
+                    <p class="minute"></p>
+                </div>
+                <div class="timeline">
+                    <div class="time"></div>
+                </div>
+            </div>
+            <div class="musicEvent">
+                <audio   id="listen" >
+                    <source type="audio/mpeg" class="listen">
+                </audio>
+                <span id="pre" class="material-icons">&#xe045;</span>
+                <span id="play" onclick="play();" class="material-icons">&#xe037;</span>
+                <span style="display:none;" onclick="stop();" id="pause" class="material-icons">&#xe034;</span>
+                <span id="next" class="material-icons">&#xe044;</span>
+            </div>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>

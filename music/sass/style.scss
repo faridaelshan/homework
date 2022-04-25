@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: white;
+        width: 130px;
+        height: 30vh;
+        box-shadow: -15px -15px 15px rgba(0,0,0,0.05),
+                     15px 15px 15px rgba(179, 179, 179, 0.26);
+        .listbox{
+            display: flex;
+            justify-content: end;
+            width: 120px;
+            margin-top: 5px;
+            .material-icons{
+                border-radius: 50%;
+                background-color: rgb(255, 255, 255);
+                font-size: 14px;
+                box-shadow: -5px -5px 5px rgba(177, 175, 175, 0.05),
+                            5px 5px 5px rgba(255, 255, 255, 0.26),
+                            inset -1px -1px 1px rgba(187, 183, 183, 0.2),
+                            inset 1px 1px 1px rgba(0,0,0,0.1)
+            }
+            .songlist{
+                position: absolute;
+                top: 0px;
+                z-index: 2;
+                overflow: scroll;
+                width:90px ;
+                height: 120px;
+                border-radius: 5px;
+                padding-left: 0;
+                background-color: rgb(246, 246, 246);
+                li{
+                    margin: 3px;
+                    list-style: none;
+                    font-size: 8px;
+                }
+            }
+        }
+        .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                margin-top:5px;
+                width: 110px;
+                height: 60px;
+            }
+        }
+        .names{
+            text-align: center;
+            font-size: 9px;
+            color: rgb(21, 38, 71);
+        }
+        .artist{
+            text-align: center;
+            font-size: 8px;
+            color: rgb(80, 119, 134);
+        }
+        .timebox{
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .volumelinebg{
+                width: 10px;
+                height: 50px;
+                position: absolute;
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                left: 10px;
+                bottom: 100px;
+                border-radius: 5px;
+                background-color: rgb(223, 217, 217);
+                .volumeline{
+                    width:2px ;
+                    height:46px;
+                    background-color:rgba(114, 113, 113, 0.774) ;
+                    border-radius: 1px;
+                    .volumepoint{
+                        margin-left: -50%;
+                        width:4px ;
+                        height:4px;
+                        border-radius:50% ;
+                        background-color: rgb(111, 218, 5);
+                    }
+                }
+            }
+            .sound{
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+                height:5%;
+                .ride{
+                    .material-icons{
+                        font-size: 12px;
+                        color: rgb(59, 59, 59);
+                        border-radius:50%;
+                        background-color: rgb(255, 255, 255);
+                        box-shadow: -5px -5px 5px rgba(0,0,0,0.05),
+                        5px 5px 5px rgba(190, 190, 190, 0.26),
+                        inset -1px -1px 1px rgba(187, 183, 183, 0.2),
+                        inset 1px 1px 1px rgba(0,0,0,0.1)
+                    }
+                }
+                .playtype{
+                    height:5px;
+                    .material-icons{
+                        font-size: 12px;
+                        color: rgb(59, 59, 59);
+                        background-color: rgb(255, 255, 255);
+                        border-radius: 50%;
+                        box-shadow: -5px -5px 5px rgba(172, 168, 168, 0.05),
+                        5px 5px 5px rgba(190, 190, 190, 0.26),
+                        inset -1px -1px 1px rgba(187, 183, 183, 0.2),
+                        inset 1px 1px 1px rgba(0,0,0,0.1)
+                    }
+                }
+            }
+            .minutebox{
+                width:110px;
+                height: 10px;
+                display: flex;
+                justify-content: space-between;
+                .currentMinute{
+                    font-size: 8px;
+                    color: grey;
+                }
+                .minute{
+                    font-size: 8px;
+                    color: grey;
+                }
+            }
+            .timeline{
+                width: 110px;
+                height: 2px;
+                background-color: rgb(156, 154, 154);
+                border-radius: 1px;
+                .time{
+                    margin-top: -1px;
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    background-color: rgb(60, 255, 0);
+                }
+            }
+        }
+        .musicEvent{
+            margin: 10px;
+            width: 110px;
+            height: 50px;
+            display: flex;;
+            justify-content: space-between;
+            align-items: center;
+            .material-icons{
+                font-size: 25px;
+                width: 25px;
+                height:25px;
+                border-radius: 50%;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+                box-shadow: -15px -15px 15px rgba(0,0,0,0.05),
+                            15px 15px 15px rgba(190, 190, 190, 0.26),
+                            inset -5px -5px 5px rgba(187, 183, 183, 0.2),
+                            inset 5px 5px 5px rgba(0,0,0,0.1)
+                
+            }
+        }
+    }
+}
