@@ -1,0 +1,108 @@
+.sec1{
+    .tpc{
+        .container1{
+            width: 100vw;
+            .row{
+                margin-left: 5%;
+                width: 90%;
+                .txtc{
+                    display: flex;
+                    justify-content: flex-start;
+                    .card{
+                        border: none;
+                        .card-body{
+                            h1{
+                                margin-top: 1rem;
+                                font-weight: lighter;
+                                font-size: 1rem;
+                            }
+                            a{
+                                margin-top: 1rem;
+                            }
+                        }
+                    }
+                }
+                .card2{
+                    height: 50rem;
+                    .first-card{
+                        position: relative;
+                        left: 50rem;
+                        top: 12rem;
+                        font-weight: 800;
+                        position: absolute;
+                        border-radius: 5%;
+                        img{
+                            width: 90%;
+                            margin-left: 5%;
+                            margin-top: 1rem;
+                            border-radius: 5%;
+                        }
+                        transform:perspective(100rem)  rotateX(15deg)    skew(-14deg, 0deg);
+                        height: 23rem;
+                        width: 20rem;
+                        z-index: 3;
+                      }
+                    .second-card{
+                        font-weight: 800;
+                        position: absolute;
+                        left: 55rem;
+                        top: 14rem;
+                        transform:perspective(100rem)  rotateX(15deg) rotateZ(25deg)   skew(-14deg, 0deg);
+                        border-radius: 5%;
+                        opacity: 0.7;
+                        z-index: 2;
+                        img{
+                            width: 90%;
+                            margin-left: 5%;
+                            margin-top: 1rem;
+                            border-radius: 5%;
+                        }
+                        height: 23rem;
+                        width: 20rem;
+                    }
+                    .third-card{
+                        font-weight: 800;
+                        position: absolute;
+                        left: 59rem;
+                        top: 18rem;
+                        transform:perspective(100rem)  rotateX(15deg)  rotateZ(50deg)  skew(-14deg, 0deg);
+                        border-radius: 5%;
+                        margin-right: 10rem;
+                        opacity: 0.3;
+                        z-index: 1;
+                        img{
+                            width: 90%;
+                            margin-left: 5%;
+                            margin-top: 1rem;
+                            border-radius: 5%;
+                        }
+                        height: 23rem;
+                        width: 20rem;
+                    }
+                }
+            }
+        }
+    }
+}
+.s2{
+    .s2d{
+        font-size: 2rem;
+        font-weight: 500;
+        .container{
+            height: 17rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .row{
+                border-radius: 5%;
+                .col-2{
+                    ul{
+                        li{
+                            list-style: circle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

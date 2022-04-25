@@ -1,0 +1,155 @@
+body {
+  background-color: #212529;
+}
+
+.hnb {
+  font-size: 2rem;
+}
+
+.hnb .container-fluid .nbr1 {
+  width: 3rem;
+  height: 3rem;
+}
+
+.hnb .container-fluid .nbr2 {
+  width: 7rem;
+  height: 3rem;
+}
+
+.hnb .container-fluid ul {
+  margin-left: 10%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.hnb .container-fluid ul li {
+  margin-left: 3rem;
+}
+
+.sec1 .tpc .container1 {
+  width: 100vw;
+}
+
+.sec1 .tpc .container1 .row {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.sec1 .tpc .container1 .row .txtc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.sec1 .tpc .container1 .row .txtc .card {
+  border: none;
+}
+
+.sec1 .tpc .container1 .row .txtc .card .card-body h1 {
+  margin-top: 1rem;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.sec1 .tpc .container1 .row .txtc .card .card-body a {
+  margin-top: 1rem;
+}
+
+.sec1 .tpc .container1 .row .card2 {
+  height: 50rem;
+}
+
+.sec1 .tpc .container1 .row .card2 .first-card {
+  position: relative;
+  left: 50rem;
+  top: 12rem;
+  font-weight: 800;
+  position: absolute;
+  border-radius: 5%;
+  -webkit-transform: perspective(100rem) rotateX(15deg) skew(-14deg, 0deg);
+          transform: perspective(100rem) rotateX(15deg) skew(-14deg, 0deg);
+  height: 23rem;
+  width: 20rem;
+  z-index: 3;
+}
+
+.sec1 .tpc .container1 .row .card2 .first-card img {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1rem;
+  border-radius: 5%;
+}
+
+.sec1 .tpc .container1 .row .card2 .second-card {
+  font-weight: 800;
+  position: absolute;
+  left: 55rem;
+  top: 14rem;
+  -webkit-transform: perspective(100rem) rotateX(15deg) rotateZ(25deg) skew(-14deg, 0deg);
+          transform: perspective(100rem) rotateX(15deg) rotateZ(25deg) skew(-14deg, 0deg);
+  border-radius: 5%;
+  opacity: 0.7;
+  z-index: 2;
+  height: 23rem;
+  width: 20rem;
+}
+
+.sec1 .tpc .container1 .row .card2 .second-card img {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1rem;
+  border-radius: 5%;
+}
+
+.sec1 .tpc .container1 .row .card2 .third-card {
+  font-weight: 800;
+  position: absolute;
+  left: 59rem;
+  top: 18rem;
+  -webkit-transform: perspective(100rem) rotateX(15deg) rotateZ(50deg) skew(-14deg, 0deg);
+          transform: perspective(100rem) rotateX(15deg) rotateZ(50deg) skew(-14deg, 0deg);
+  border-radius: 5%;
+  margin-right: 10rem;
+  opacity: 0.3;
+  z-index: 1;
+  height: 23rem;
+  width: 20rem;
+}
+
+.sec1 .tpc .container1 .row .card2 .third-card img {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1rem;
+  border-radius: 5%;
+}
+
+.s2 .s2d {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.s2 .s2d .container {
+  height: 17rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s2 .s2d .container .row {
+  border-radius: 5%;
+}
+
+.s2 .s2d .container .row .col-2 ul li {
+  list-style: circle;
+}
+/*# sourceMappingURL=style.css.map */
