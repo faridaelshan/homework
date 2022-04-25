@@ -1,0 +1,68 @@
+.section2{
+    .sec21{
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button{
+            width: 15rem;
+        }
+        h1{
+            font-size: 5rem;
+            font-weight: 700;
+        }
+        .container{
+            .row{
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                .col-2{
+                    position: relative;
+                    margin: 1rem;
+                    background-color: rgb(209, 228, 230);
+                    height: 15rem;
+                    width: 10rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover{
+                        background-color: rgb(243, 154, 63);
+                    }
+                    .icon1{
+                        margin-top: 1rem;
+                        width: 8rem;
+                        height: 8rem;
+                        opacity: 1;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 4rem;
+                            height:4rem ;
+                        }
+                        a{
+                            color: black;
+                            font-size: 4rem;
+                        }
+                    }
+                    .icon2{
+                        position: absolute;
+                        top: 1rem;
+                        right: 2rem;
+                        width: 2rem;
+                        height: 2rem;
+                        opacity: 2;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

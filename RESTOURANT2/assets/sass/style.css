@@ -1,0 +1,380 @@
+.section1 {
+  height: 50rem;
+  background-color: #5eae53;
+}
+
+.section1 .container-fluid .row {
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section1 .container-fluid .row .textcol p {
+  font-size: 2rem;
+}
+
+.section1 .container-fluid .row .textcol h1 {
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.section1 .container-fluid .row .textcol .input-group {
+  width: 30rem;
+  height: 4rem;
+}
+
+.section1 .container-fluid .row .textcol .input-group .form-control {
+  border: none;
+  width: 25rem;
+  height: 4rem;
+}
+
+.section1 .container-fluid .row .textcol .input-group .igt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border: none;
+  width: 5rem;
+  height: 4rem;
+  background-color: white;
+}
+
+.section1 .container-fluid .row .textcol .input-group .igt .input-group-text {
+  margin: 0.2rem;
+  background-color: #eb8e78;
+  color: white;
+}
+
+.section1 .container-fluid .row .imgcol .sekil {
+  position: relative;
+}
+
+.section1 .container-fluid .row .imgcol .sekil .food1 {
+  position: absolute;
+  right: 40rem;
+  top: 30rem;
+  background-color: #f49b3f;
+  z-index: 1;
+  width: 15rem;
+  height: 13rem;
+}
+
+.section1 .container-fluid .row .imgcol .sekil .food2 {
+  position: absolute;
+  right: 25rem;
+  top: 7rem;
+  z-index: 2;
+  width: 23;
+  height: 27;
+}
+
+.section1 .container-fluid .row .imgcol .sekil .food3 {
+  position: absolute;
+  right: 23rem;
+  top: 3rem;
+  z-index: 3;
+  background-color: #eb8e78;
+  width: 10rem;
+  height: 10rem;
+}
+
+.section1 .container-fluid .row .imgcol .sekil div {
+  position: absolute;
+  right: 25rem;
+  top: 30rem;
+  z-index: 3;
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1 .container-fluid .row .imgcol .sekil div a {
+  font-size: 2rem;
+  color: green;
+}
+
+.section1 .container-fluid .row .icon {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section1 .container-fluid .row .icon div {
+  width: 4rem;
+  height: 4rem;
+  background-color: #eb8e78;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1 .container-fluid .row .icon div a {
+  font-size: 2rem;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #5eae53;
+  font-size: 1rem;
+}
+
+header .navbar {
+  width: 90%;
+  margin-left: 5%;
+  background-color: transparent;
+}
+
+header .navbar .container-fluid .navbar-brand {
+  font-size: 3rem;
+  padding-right: 20rem;
+  font-weight: 700;
+}
+
+header .navbar .container-fluid .collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navbar .container-fluid .collapse ul li {
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+
+header .navbar .container-fluid .collapse .d-flex button:hover {
+  background-color: violet;
+}
+
+header .navbar .container-fluid .collapse .d-flex a {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eb8e78;
+}
+
+header .navbar .container-fluid .collapse .d-flex a i {
+  font-size: xx-large;
+}
+
+.section2 .sec21 {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .sec21 button {
+  width: 15rem;
+}
+
+.section2 .sec21 h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.section2 .sec21 .container .row {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.section2 .sec21 .container .row .col-2 {
+  position: relative;
+  margin: 1rem;
+  background-color: #d1e4e6;
+  height: 15rem;
+  width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .sec21 .container .row .col-2:hover {
+  background-color: #f39a3f;
+}
+
+.section2 .sec21 .container .row .col-2 .icon1 {
+  margin-top: 1rem;
+  width: 8rem;
+  height: 8rem;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .sec21 .container .row .col-2 .icon1 img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.section2 .sec21 .container .row .col-2 .icon1 a {
+  color: black;
+  font-size: 4rem;
+}
+
+.section2 .sec21 .container .row .col-2 .icon2 {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  width: 2rem;
+  height: 2rem;
+  opacity: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2 .sec21 .container .row .col-2 .icon2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.section3 .sec33 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.section3 .sec33 button {
+  width: 15rem;
+}
+
+.section3 .sec33 h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.section3 .sec33 .sec331 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section3 .sec33 .sec331 button {
+  background-color: #eb8e78;
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem;
+}
+
+.section3 .sec33 .sec331 button a {
+  color: white;
+}
+
+.section3 .sec33 .cardlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section3 .sec33 .cardlist .card img {
+  position: relative;
+  z-index: 1;
+}
+
+.section3 .sec33 .cardlist .card button {
+  position: absolute;
+  width: 4rem;
+  height: 2rem;
+  background-color: #eb8e78;
+  z-index: 2;
+  border-radius: 10%;
+  margin: 1rem;
+}
+
+.section3 .sec33 .cardlist .card button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.section3 .sec33 .cardlist .card .card-body .cardb2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

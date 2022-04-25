@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+        height: 5rem;
+        background-color: rgb(94, 174, 83);
+        font-size: 1rem;
+        .navbar{
+            width: 90%;
+            margin-left: 5%;
+            background-color: transparent;
+            .container-fluid{
+                .navbar-brand{
+                    font-size: 3rem;
+                    padding-right: 20rem;
+                    font-weight: 700;
+                }
+                .collapse{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    ul{
+                    li{
+                        padding-left: 3rem;
+                        font-size: 1.5rem;
+                    }
+                    }
+                    .d-flex{
+                        button{
+                            &:hover{
+                                background-color: violet;
+                            }
+                        }
+                        a{
+                            width: 3.5rem;
+                            height: 3.5rem;
+                            border-radius: 50%;
+                            color: rgb(255, 255, 255);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: rgb(235, 142, 120);
+                            i{
+                                font-size: xx-large;
+                            }
+                            
+    
+                        }
+                    }
+                }
+            }
+        }
+}
