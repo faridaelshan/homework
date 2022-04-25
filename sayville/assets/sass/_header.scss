@@ -1,0 +1,28 @@
+header{
+    border-bottom: double rgba(82, 81, 81, 0.171);
+    .navbar{
+        background-color: white;
+        .container-fluid{
+            .collapse{ 
+                display: flex;
+                justify-content: center;
+                .navbar-nav{
+                    width: 50%;
+                    margin-left: auto;
+                    .nav-item{
+                        cursor: pointer;
+                        a{
+                            &:hover{
+                                color: orange;
+                            }
+                        }
+                    }
+                }
+                a{
+                    cursor: pointer;
+                    color: black;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.nyc5{
+    .row{
+       .icon{
+           font-size: 1rem;
+           a{
+               
+               cursor: pointer;
+               i{
+                   color:black ;
+                   &:hover{
+                       color: chocolate;
+                   }
+               }
+           }
+       }
+    }
+}

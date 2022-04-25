@@ -1,0 +1,32 @@
+.hello{
+    .hello-text{
+        background-color: rgb(245, 245, 245);
+        .card{
+            border-color: transparent;
+            background-color: rgb(245, 245, 245);
+            .card-body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: x-large;
+                h2{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                p{
+                    width: 70%;
+                    text-align: center;
+                }
+                a{
+                    width: 15rem;
+                    height: 5rem;
+                    font-size: 2rem;
+                    background-color: rgb(255, 89, 16);
+                    &:hover{
+                        background-color: black;
+                    }
+                }
+            }
+        }
+    }
+}

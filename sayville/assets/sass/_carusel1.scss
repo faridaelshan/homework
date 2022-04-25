@@ -1,0 +1,27 @@
+.carusel3{
+    .slide{
+        .carusel-inner{
+            .carusel-item{
+                .card-group{
+                    .card{
+                        img{
+                            &hover{
+                                background-color: warning;
+                                
+                            }
+                        }
+                        .card-body{
+                            .card-title{
+                                cursor: pointer;
+                                color: black;
+                                &:hover{
+                                    color:rgb(255, 89, 16) ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.footer-top{
+    .fte{
+        height: 20rem;
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .text{
+            .h2{
+                font-size: 4rem;
+                font-weight: 700;
+            }
+        }
+        .np{
+            input{
+                border-color: rgba(82, 81, 81, 0.171);
+                width: 15rem;
+                height: 5rem;
+
+            }
+        }
+        .btn{
+            .submit{
+                background-color: rgb(255, 89, 16);
+                border-color: rgba(82, 81, 81, 0.171);
+                color: white;
+                font-size: 2rem;
+                width: 15rem;
+                height: 5rem;
+                &:hover{
+                    background-color: rgb(184, 182, 187);
+                }
+            }
+        }
+    }
+}
